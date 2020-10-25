@@ -1,0 +1,36 @@
+html {
+    background: rgb(252, 252, 252);
+}
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
+    background: whitesmoke;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {   
+    border-top: 5px solid black;
+}
+
+.blog-post {
+    border-bottom: 1px solid black;
+}
+
+#sub {
+    border-top: 10px solid pink;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
