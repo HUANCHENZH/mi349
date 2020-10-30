@@ -1,6 +1,35 @@
 html {
     background: rgb(252, 252, 252);
 }
+
+
+header {
+    background-color:whitesmoke;
+    color: rgb(44, 43, 43);
+}
+
+
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(157, 211, 150, 0.836);
+    
+  }
+  
+#navbar a {
+    float: left;
+    color: #fffefe;
+    text-align: center;
+    padding: 7px;
+    
+  }
+.sticky, #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+
 body {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -12,6 +41,8 @@ body {
     background: whitesmoke;
 }
 
+
+
 h1 {
     font-size: 3em;
     margin: 0;
@@ -22,7 +53,35 @@ p {
 }
 
 #blog {   
+    display: flex;
     border-top: 5px solid black;
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1) {
+    flex: 6;
+    background: rgba(157, 211, 150, 0.836);
+}
+
+article:nth-of-type(2) {
+    flex: 5;
+    background: rgba(157, 211, 150, 0.836);
+}
+
+.dog {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.bigfish {
+    float: left;
+    margin-right: 10px;
+
 }
 
 .blog-post {
@@ -30,7 +89,7 @@ p {
 }
 
 #sub {
-    border-top: 10px solid pink;
+    border-top: 10px solid rgba(157, 211, 150, 0.836);
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
