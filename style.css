@@ -101,3 +101,11 @@ article:nth-of-type(2) {
       background-color: blue;
     }
   }
+
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: red;
+    }
+  }
+
