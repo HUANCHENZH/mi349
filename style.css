@@ -93,3 +93,11 @@ article:nth-of-type(2) {
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
